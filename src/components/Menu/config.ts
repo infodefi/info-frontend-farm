@@ -23,12 +23,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: '/farms',
+    href: '/#/farms',
   },
   {
-    label: 'Nests',
+    label: 'Pools',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: '/#/pools',
   },
   // {
   //   label: 'Pools',
@@ -85,21 +85,21 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  {
-    label: 'Partnerships/IFO',
-    icon: 'InfoIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  },
-  {
-    label: 'Audit by Hacken',
-    icon: 'AuditIcon',
-    href: 'https://www.infodefi.com/files/hackenAudit.pdf',
-  },
-  {
-    label: 'Audit by CertiK',
-    icon: 'AuditIcon',
-    href: 'https://certik.org/projects/info-finance',
-  },
+  //{
+  //  label: 'Partnerships/IFO',
+  //  icon: 'InfoIcon',
+  //  href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+  //},
+  //{
+  //  label: 'Audit by Hacken',
+  //  icon: 'AuditIcon',
+  //  href: 'https://www.infodefi.com/files/hackenAudit.pdf',
+ // },
+ // {
+  //  label: 'Audit by CertiK',
+  //  icon: 'AuditIcon',
+  //  href: 'https://certik.org/projects/info-finance',
+  //},
 ]
 
 export default config
