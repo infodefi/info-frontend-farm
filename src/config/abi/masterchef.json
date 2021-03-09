@@ -3,7 +3,7 @@
     "inputs": [
       {
         "internalType": "contract EggToken",
-        "name": "_egg",
+        "name": "_info",
         "type": "address"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_eggPerBlock",
+        "name": "_infoPerBlock",
         "type": "uint256"
       },
       {
@@ -154,7 +154,7 @@
   },
   {
     "inputs": [],
-    "name": "egg",
+    "name": "info",
     "outputs": [
       {
         "internalType": "contract EggToken",
@@ -168,7 +168,7 @@
   },
   {
     "inputs": [],
-    "name": "eggPerBlock",
+    "name": "infoPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -545,7 +545,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_eggPerBlock",
+        "name": "_infoPerBlock",
         "type": "uint256"
       }
     ],
