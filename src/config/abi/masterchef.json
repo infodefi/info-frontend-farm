@@ -2,7 +2,7 @@
   {
     "inputs": [
       {
-        "internalType": "contract EggToken",
+        "internalType": "contract InfoToken",
         "name": "_info",
         "type": "address"
       },
@@ -157,7 +157,7 @@
     "name": "info",
     "outputs": [
       {
-        "internalType": "contract EggToken",
+        "internalType": "contract InfoToken",
         "name": "",
         "type": "address"
       }
@@ -235,7 +235,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accEggPerShare",
+        "name": "accInfoPerShare",
         "type": "uint256"
       },
       {
@@ -434,7 +434,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingEgg",
+    "name": "pendingInfo",
     "outputs": [
       {
         "internalType": "uint256",
