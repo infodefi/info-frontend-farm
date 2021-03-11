@@ -53,18 +53,18 @@ const config: MenuEntry[] = [
         label: 'PancakeSwap',
         href: 'https://pancakeswap.info/token/0x5B13a55a3B88B45CC3AB79841825D3393080a305',
       },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/infodefi-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/infodefi-finance/',
-      },
-      {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-      },
+      // {
+      //   label: 'CoinGecko',
+      //   href: 'https://www.coingecko.com/en/coins/infodefi-finance',
+      // },
+      // {
+      //   label: 'CoinMarketCap',
+      //   href: 'https://coinmarketcap.com/currencies/infodefi-finance/',
+      // },
+      // {
+      //   label: 'AstroTools',
+      //   href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+      // },
     ],
   },
   {
@@ -75,31 +75,16 @@ const config: MenuEntry[] = [
         label: 'Github',
         href: 'https://github.com/infodefi/',
       },
-      {
-        label: 'Docs',
-        href: 'https://infodefi.gitbook.io/info-finance/',
-      },
+      // {
+      //   label: 'Docs',
+      //   href: 'https://infodefi.gitbook.io/info-finance/',
+      // },
       {
         label: 'Blog',
         href: 'https://infofinance.medium.com/',
       },
     ],
   },
-  //{
-  //  label: 'Partnerships/IFO',
-  //  icon: 'InfoIcon',
-  //  href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  //},
-  //{
-  //  label: 'Audit by Hacken',
-  //  icon: 'AuditIcon',
-  //  href: 'https://www.infodefi.com/files/hackenAudit.pdf',
- // },
- // {
-  //  label: 'Audit by CertiK',
-  //  icon: 'AuditIcon',
-  //  href: 'https://certik.org/projects/info-finance',
-  //},
 ]
 
 export default config
